@@ -54,7 +54,7 @@ app.delete("/api/students/:id", (req, res) => {
 });
 
 // Puerto
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 1000;
 app.listen(port, () =>
   console.log(`Escuchando nuestro puerto http://localhost:${port}...`)
 );

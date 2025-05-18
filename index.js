@@ -5,7 +5,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 
 const app = express();
-const port = 8080;
+const port = 2000;
 
 // Middleware para poder leer JSON en las solicitudes POST
 app.use(bodyParser.json());
